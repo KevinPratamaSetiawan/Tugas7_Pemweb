@@ -1,0 +1,114 @@
+:root{
+    --primary-1 : #00704A;
+    --primary-2 : #27251f;
+    --color-white : #fbfcfa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    background-color: var(--primary-1);
+    border: 3px solid var(--primary-2);
+    color: var(--color-white);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.container{
+    margin: 10px auto;
+    padding: 10px;
+    border: 3px solid var(--primary-2);
+    border-radius: 5px;
+    width: 80%;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-1);
+    border: 3px solid var(--primary-2);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-white);
+}
+
+table,tr,td{
+    border: 1px solid var(--primary-2);
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 95%;
+    border: 2px solid var(--primary-2);
+}
+
+.form_container{
+    display: none;
+    position: absolute;
+    background-color: var(--color-white);
+    border: 3px solid var(--primary-1);
+    padding: 5px;
+    width: 300px;
+}
+
+.form3{
+    right: 50px;
+}
+
+.relatives_div{
+    position: relative;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inp_form{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.btn_submit{
+    width: 100px;
+    margin-bottom: 5px;
+    background-color: green;
+}
+
+.btn_cancel{
+    width: 100px;
+    background-color: red;
+}
+
+.search_btn{
+    width: 50px;
+    height: 25px;
+    background-color: var(--color-white);
+}
+
+.src_inp{
+    height: 25px;
+}
+
+.btn_container{
+    display: block;
+}
+
+.edit_btn{
+    width: 50px;
+    margin: 5px;
+}
